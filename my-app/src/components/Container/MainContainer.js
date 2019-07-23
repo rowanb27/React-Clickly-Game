@@ -18,7 +18,7 @@ class MainContainer extends Component {
             });
             return this.setState({
                 image: imageOrder.sort(() => Math.random() - 0.5),
-                message: "You have guessed incorrectly",
+                message: "You have guessed incorrectly!",
                 score: 0
             })
         } 
